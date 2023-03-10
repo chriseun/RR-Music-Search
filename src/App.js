@@ -25,7 +25,7 @@ function App() {
 			fetchData()
 		}
 	}, [search])
-	
+
 	const handleSearch = (e, term) => {
 		e.preventDefault()
 		setSearch(term)
